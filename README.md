@@ -36,4 +36,10 @@ A total of 6 machine learning models were created and evaluated:
 ![Capture election district name from .csv header](https://github.com/noble190/credit_risk_analysis/blob/main/img/Results_AdaBoost.png)
 <hr>
 
+
+
 ## Summary
+
+In summary, it would appear that, for any evaluated machine learning model, it is quite trivial to predict low risk loans, but very difficult to predict high risk loans. Further evaluaton may be needed before deciding on an approach.
+
+Given the low precision for high risk loans across the board, I would not recommend that any of these models be used. However, AdaBoost, while still inadequate, is considerably better than the other models evaluated.

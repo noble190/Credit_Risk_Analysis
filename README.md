@@ -36,7 +36,10 @@ A total of 6 machine learning models were created and evaluated:
 ![Capture election district name from .csv header](https://github.com/noble190/credit_risk_analysis/blob/main/img/Results_AdaBoost.png)
 <hr>
 
-
+### Comparison
+* <b>Balanced Accuracy Scores: </b> It would appear that the first four models - Naive Oversampling, Cluster Centroid Undersampling, SMOTE, and SMOTEENN have similar, relatively low balanced accuracy scores. This score improves considerably for the Balanced Forest and AdaBoost models, with Adaboost returning an impressive score of 0.93.
+* <b>Precision: </b> All examined models showed perfect precision for determining low-risk loans. However, this does not hold true for high-risk loans. Model performance was poor across the board in this category (with AdaBoost returning a relatively high 0.09).
+* <b>Recall: </b> AdaBoost returned the most consistent recall values of 0.91 and 0.95 for high-risk and low-risk loans, respectively. The remaining models had signficantly lower and less consistent scores.
 
 ## Summary
 
